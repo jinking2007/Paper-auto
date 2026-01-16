@@ -137,7 +137,7 @@ jobs:
         with:
           files: server.jar
           tag_name: "latest"
-          name: "Paper Server - Latest"
+          name: "MChoster"
           body: |
             **安装说明:**
             1. 下载 `server.jar` 文件
